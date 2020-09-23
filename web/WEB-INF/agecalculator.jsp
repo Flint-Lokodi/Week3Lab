@@ -13,12 +13,13 @@
     </head>
     <body>
         <h1>Age Calculator</h1>
+        <br>
         <form method="post" action="age">
             Enter your age: <input type="text" name="currentAge"><br>
             <input type="submit" value="Age next birthday">
             </form>
             ${correct}${nextYearAge}${wrong}${nullAge}<br>
-            <a href="url">Arithmetic Calculator</a>
+            <a href="arithmetic">Arithmetic Calculator</a>
         
     </body>
 </html>
